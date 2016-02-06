@@ -7,4 +7,4 @@ init:
 install:
 - cmd: gem install jekyll
 build_script:
-- cmd: jekyll build --source site-source --destination _site
+- cmd: jekyll build --source site-source --destination _site --verbose
