@@ -2,7 +2,6 @@ version: "{build}"
 
 init:
 - cmd: set PATH=C:\Ruby22\bin;%PATH%
-- cmd: echo %PATH%
 
 install:
 - cmd: gem install jekyll
