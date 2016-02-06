@@ -1,0 +1,9 @@
+version: 1.0.{build}
+
+init:
+- cmd: set PATH=C:\Ruby22\bin;%PATH
+
+install:
+- cmd: gem install jekyll
+build_script:
+- cmd: jekyll build --source site-source --destination _site

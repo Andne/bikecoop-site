@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B49F6CF7-0E85-4557-95B4-1396ABE71032}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -48,6 +49,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_site", "_site\", "{647041B
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63400"
+		SlnRelativePath = "_site\"
 	EndProjectSection
 EndProject
 Global
