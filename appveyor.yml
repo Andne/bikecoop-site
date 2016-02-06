@@ -1,4 +1,4 @@
-version: 1.0.{build}
+version: {build}
 
 init:
 - cmd: set PATH=C:\Ruby22\bin;%PATH
